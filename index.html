@@ -10,57 +10,27 @@
         body {
             font-family: 'Inter', sans-serif;
             scroll-behavior: smooth;
-            background-color: #f3f4f6; /* Tailwind's gray-100 */
         }
         .nav-link {
             transition: color 0.3s ease, transform 0.3s ease;
-            color: #4b5563; /* Tailwind's gray-600 */
         }
         .nav-link:hover {
-            color: #8b5cf6; /* Tailwind's purple-500 */
+            color: #8b5cf6;
             transform: translateY(-2px);
         }
         .active-nav-link {
-            color: #8b5cf6; /* Tailwind's purple-500 */
+            color: #8b5cf6;
             font-weight: 600;
         }
         header {
-            background-image: linear-gradient(to right, #6d28d9, #9333ea); /* Tailwind's gradient from purple-500 to violet-500 */
+            background-image: linear-gradient(to right, #6d28d9, #9333ea);
         }
         .section-title {
-            color: #1e293b; /* Tailwind's gray-900 */
+            color: #1e293b;
         }
         .section-bg {
              background-color: white;
         }
-
-        .card {
-            background-color: white;
-            border-radius: 0.5rem; /* Tailwind's rounded-md */
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Tailwind's shadow-sm approximation */
-            padding: 2rem;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Tailwind's shadow-md approximation */
-        }
-
-        .project-card {
-            @apply card;
-            border-left-width: 4px;
-            border-left-color: #a855f7; /* Tailwind's purple-400 */
-        }
-        .experience-card{
-           @apply card;
-           border-left-width: 4px;
-           border-left-color: #6366f1;
-        }
-
-        .skill-item {
-            @apply bg-white rounded-lg p-4 shadow-md flex items-center gap-2;
-        }
-
     </style>
 </head>
 <body class="bg-gray-100">
@@ -96,52 +66,52 @@
         <section id="skills" class="bg-gray-100 py-10 rounded-lg shadow-md mt-8 px-6">
             <h2 class="section-title text-2xl font-semibold mb-6 text-center">Skills & Technologies</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Manual Testing</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Functional & Regression Testing</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Test Case Design & Execution</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Bug Reporting & Tracking (Jira)</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Test Documentation</span>
                 </div>
-                 <div class="skill-item">
+                 <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Agile/Scrum Methodology</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Basic SQL</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Mobile & Web Application Testing</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>✅</span> <span class="font-medium text-gray-700">Communication & Teamwork</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">Jira</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">Postman</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">MySQL (Basic)</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">Git</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">TestRail</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">Chrome DevTools</span>
                 </div>
-                <div class="skill-item">
+                <div class="bg-white rounded-lg p-4 shadow-md flex items-center gap-2">
                     <span>🛠️</span> <span class="font-medium text-gray-700">Microsoft Excel</span>
                 </div>
             </div>
@@ -150,7 +120,7 @@
         <section id="experience" class="section-bg py-10 rounded-lg shadow-md mt-8 px-6">
             <h2 class="section-title text-2xl font-semibold mb-6 text-center">Professional Experience</h2>
             <div class="space-y-6">
-                <div class="experience-card">
+                <div class="bg-white rounded-lg shadow-md  py-2 border-l-4 border-indigo-500 pl-4 transition-transform hover:shadow-lg hover:translate-y-[-2px]">
                     <h3 class="text-xl font-semibold text-gray-800">QA Engineer</h3>
                     <p class="text-gray-600 mb-2">Metacaps Innovations, Bijainagar, Rajasthan (June 2022 - Present)</p>
                     <ul class="list-disc list-inside text-gray-700 leading-relaxed">
@@ -167,7 +137,7 @@
         <section id="projects" class="bg-gray-100 py-10 rounded-lg shadow-md mt-8 px-6">
             <h2 class="section-title text-2xl font-semibold mb-6 text-center">Projects</h2>
             <div class="space-y-6">
-                <div class="project-card">
+                <div class="bg-white rounded-lg shadow-md  py-2 border-l-4 border-purple-500 pl-4 transition-transform hover:shadow-lg hover:translate-y-[-2px]">
                     <h3 class="text-xl font-semibold text-gray-800">Marble ERP</h3>
                     <p class="text-gray-600 mb-2">A complete ERP solution for the marble industry</p>
                     <ul class="list-disc list-inside text-gray-700 leading-relaxed">
@@ -176,7 +146,7 @@
                         <li>Provided feedback to improve the usability and performance of the ERP system.</li>
                     </ul>
                 </div>
-                <div class="project-card">
+                <div class="bg-white rounded-lg shadow-md  py-2 border-l-4 border-purple-500 pl-4 transition-transform hover:shadow-lg hover:translate-y-[-2px]">
                     <h3 class="text-xl font-semibold text-gray-800">Flextion</h3>
                     <p class="text-gray-600 mb-2">AI-based application for fund comparison</p>
                     <ul class="list-disc list-inside text-gray-700 leading-relaxed">
